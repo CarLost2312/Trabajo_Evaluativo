@@ -4,11 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class UsuarioController {
+public class IndexController {
 
-@GetMapping("/Usuarios")
+@GetMapping("/Inicio")
 public String getIndexPage() {
-	return "Candidatos";
+	return "Index";
 }
 
 
