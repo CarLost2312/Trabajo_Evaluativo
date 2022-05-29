@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class UsuarioController {
 
-@GetMapping("/Usuarios")
+@GetMapping("/usuarios")
 public String getIndexPage() {
 	return "Candidatos";
 }
