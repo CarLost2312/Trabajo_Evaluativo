@@ -9,6 +9,10 @@
 	
 }
 
+#carouselExampleCaptions .carousel-item {
+height: 450px;
+}
+
 .logo-footer{
 	width:10em;
 }
