@@ -4,34 +4,56 @@
 		<meta charset="utf-8">
 		<title>Registro</title>
 		<link rel="stylesheet" href="../static/css/style.css">
+				 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		
 		</head>
 <body>
 <header>
-			<h1>Ingrese sus datos</h1>	
+			<h1>Ingrese sus datos!!!</h1>	
+			<nav class="navbar navbar-expand-lg bg-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Votaciones</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Votantes.html">Votantes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Estadodelavotacion.html">Resultados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Registro.html">Votar!</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 			</header>
- <ol>
-			<nav class="barra"> 
-			<li><a href="Index.html">Inicio</a></li>
-			<li> <a href="Votantes.html">Votantes</a> </li> 
-			<li> <a href="Estadodelavotacion.html">Resultados</a> </li>    
-		    </nav>
-	  </ol>
 <form action="/my-handling-form-page" method="post">
-			  <li>
-			    <label for="name">Nombre</label>
-			    <input type="text" id="name" name="name0">
-			    </li>
-			    <li>
-			    <label for="msg">Correo electronico:</label>
-			    <input type="email" id="correo" name="correo0">
-			  </li>
-			    <li>
-			    <label for="msg">Fecha de nacimiento:</label>
-			    <input type="number" id="tel" name="tel0">
-			  </li>
-			  <li>
-	 		  	<input type="submit" value="Enviar datos" href="Candidatos.html" />
-	 		  </li>	 			
+	 		  
+	 		  <form>
+	 <div class="mb-3">
+    <label for="exampleInputname1" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+     <div class="mb-3">
+    <label for="exampleInputdate1" class="form-label">Fecha de nacimiento</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>		
 		</form>
+		   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		
 </body>
 </html>

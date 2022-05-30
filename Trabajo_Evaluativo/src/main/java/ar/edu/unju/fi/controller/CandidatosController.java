@@ -13,6 +13,7 @@ import ar.edu.unju.fi.service.ICandidatoService;
 
 @Controller
 public class CandidatosController {
+
 	@Autowired
 	private ICandidatoService candidatoService;
 	
@@ -37,4 +38,5 @@ public class CandidatosController {
 		candidatoService.agregarCandidato(candidato);
 		return mav;
 	}
+
 }
