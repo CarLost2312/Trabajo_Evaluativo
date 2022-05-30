@@ -22,7 +22,8 @@ public class ListaCandidato {
 		listaCandidato.add(new Candidato(8,"Los Fabulosos Cadilacs","Rock","Los Fabulosos Cadilacs es una banda de ska proveniente de Buenos Aires y fundada en 1984.Considerada una de las mejores banda en su genero en Latinoamerica",0,"Los-Fabulosos-Cadillacs.webp"));
 		listaCandidato.add(new Candidato(9,"Paulo Londra","Trap-Pop Latino","Paulo Londra es un rapero , cantante y compositor argentino. Paulo surgio de las competenias de freestyle de plaza que se celebraban de forma amateur,como el Quinto Escalon",0,"Paulo-Londra.webp"));
 		listaCandidato.add(new Candidato(10,"Soda Stereo","Rock","Soda Stereo es una banda Argentina de rock alternativo formada en Belgrano,Bs.As en 1982 por Gustavo Cerati, Hector Bosio y CArlos Ficicchia",0,"Soda-Stereo.webp"));
-	
+		listaCandidato.add(new Candidato(11,"Nadie","-","Votar en blanco",0,"no.webp"));
+		   
 	}
 	
 
