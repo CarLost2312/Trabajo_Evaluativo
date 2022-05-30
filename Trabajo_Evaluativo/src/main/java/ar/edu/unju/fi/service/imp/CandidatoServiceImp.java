@@ -34,5 +34,13 @@ public class CandidatoServiceImp implements ICandidatoService {
 		listaCandidato.getListaCandidato().add(candidato);
 		return true;
 	}
+	@Override
+	public int contarVotos() {
+		int total = 0;
+		for (Candidato candidato : listaCandidato.getListaCandidato()) {
+	        total += candidato.getCantidadVotos();
+	    }
+		return total;
+	}
 
 }

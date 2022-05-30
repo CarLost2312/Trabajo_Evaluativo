@@ -8,4 +8,5 @@ public interface ICandidatoService {
 	public Candidato buscarCandidato(int codigo);
 	public Candidato getCandidato();
 	public boolean agregarCandidato(Candidato candidato);
+	public int contarVotos();
 }

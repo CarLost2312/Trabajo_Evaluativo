@@ -15,7 +15,10 @@ public class EstadisticaController {
 @GetMapping("/estadistica")	
 public String getEstadisticaPage (Model model) {
 	model.addAttribute("estadistica", candidatoService.getListaCandidato().getListaCandidato());
-return "estadistica";	
+	model.addAttribute("total", candidatoService.contarVotos());
+
+return "estadistica";
+
 	
 }
 
