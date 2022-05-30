@@ -36,6 +36,7 @@ public class UsuarioController {
 		usuarioService.votar(codigo, usuario.getNombre());
 		LOGGER.info("Votacion exitosa!");
 		return mav;
+	
 		
 	}
 
