@@ -42,7 +42,7 @@
       <th scope="col">Codigo</th>
       <th scope="col">Nombre</th>
       <th scope="col">Votos</th>
-      <th scope="col">Porcentaje</th>
+      <th scope="col">Pocentajes</th>
     </tr>
   </thead>
   <tbody>
@@ -122,6 +122,13 @@
       <td th:text="${Candidato.nombre}">blanco</td>
      <td th:text="${Candidato.cantidadVotos}">blanco</td>
      <td>%</td>   <!-- debemos crear algun metodo para sacar porcentaje  -->
+    </tr>
+     <tr>
+      <th scope="row">Total</th>
+      <td th:text="${Candidato.codigo}">de</td>
+      <td th:text="${Candidato.nombre}">Votos</td>
+     <td th:text="${Candidato.cantidadVotos}">-----></td>
+     <td>"resultado"</td>   <!-- debemos crear un metodo que sume todos los votos -->
     </tr>
   </tbody>
 </table>
